@@ -1,0 +1,14 @@
+#include<stdio.h>
+int main()
+{
+long long num;
+int count=0;
+printf("enter an integer:");
+scanf("%lld",&num);
+while(num!=0)
+{
+num/=10;
+++count;
+}
+printf("number of digits:%d",count);
+}  
