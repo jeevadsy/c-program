@@ -11,7 +11,7 @@ int main()
 	if(a==b)
 	{
 		printf(" %s\n",a );
-	}else if(a>=b)
+	}else if(a>b)
 	{
 		printf(" %s\n",a);
 	}else
