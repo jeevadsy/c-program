@@ -4,9 +4,9 @@ int main()
 	int n;
 	printf("enter the number\n");
 	scanf("%d",&n);
-	  if(n==0)
+	  if(n==10)
 	{
-		printf("zero");
+		printf("ten");
 	} else if(n==1)
 	{
 		printf("one");
