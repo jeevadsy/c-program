@@ -2,13 +2,13 @@
 int main()
 {
 	char a[1000];
-	int b=0,c=1,i;
+	int d=0,c=1,i;
 	gets(a);
 	for(i=0;a[i]!=NULL;i++)
 	{
 		if(a[i]==' ')
-		b=++c;
+		d=++c;
 	}
-	printf("%d",b);
+	printf("%d",d);
 	return 0;
 }  
