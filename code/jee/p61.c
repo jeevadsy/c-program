@@ -2,15 +2,15 @@
 
 void main()
 {
-	char a[100];
-	int i,n;
+	char s[100];
+	int i,k;
 	printf("enter the string\n");
-	scanf("%s",&a[i]);
+	scanf("%s",&s[i]);
 	printf("output is:\n");
-	scanf("%d",&n);
-	for(i=0;i<n;i++)
+	scanf("%d",&k);
+	for(i=0;i<k;i++)
 	{
-		printf("%c",a[i]);
+		printf("%c",s[i]);
 	}
 	
 }
