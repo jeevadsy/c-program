@@ -11,17 +11,17 @@ int main()
 		if(s[i]=='a'||s[i]=='e'||s[i]=='i'||s[i]=='o'||s[i]=='u'||s[i]=='A'||s[i]=='E'||s[i]=='I'||s[i]=='O'||s[i]=='U')
 
 {
+	printf("yes");
 	flag=1;
 	break;
 	
-}
-}
-if(flag=1)
+}else
 
-	printf("yes");
-
-else
+{
 printf("no");
-
+flag=0;
+break;
+}
+}
 return 0;
 }
